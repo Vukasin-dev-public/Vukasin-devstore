@@ -1,0 +1,43 @@
+{
+    "1": {
+        "name": "plan_name",
+        "description": "plan_description",
+        "billing_plans": {
+            "paypal": {
+                "billing_plan_id": "P-8M836848X50162340JFTQCVQ",
+                "frequency": {
+                    "value": 1,
+                    "unit": "MONTH",
+                    "days": 30
+                },
+                "trial_period_days": 0,
+                "trial_period": false,
+                "cycles": 0,
+                "currency": "USD"
+            },
+            "stripe": {
+                "price_id": "price_1REXfqJiL0zgFhO5KrYkKxcM",
+                "product_id": "prod_S8pKDVPwHeLSmA",
+                "currency": "usd",
+                "frequency": {
+                    "value": 1,
+                    "unit": "month",
+                    "days": 30
+                }
+            }
+        },
+        "price": 10.0,
+        "properties": {
+            "property_1": false,
+            "property_2": false,
+            "property_3": false,
+            "property_4": false,
+            "property_5": false
+        },
+        "features": [
+            "feature_1",
+            "feature_2",
+            "feature_3"
+        ]
+    }
+}
